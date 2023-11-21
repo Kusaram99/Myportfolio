@@ -146,10 +146,6 @@ img {
     .container {
         width: var(--container-width-md);
     }
-
-    section {
-        margin-top: 6rem;
-    }
 }
 
 

@@ -6,17 +6,18 @@ import { motion } from 'framer-motion';
 const data = [
   {
     id: 1,
+    // image: "https://shorturl.at/GXZ45",
+    image: "https://raw.githubusercontent.com/Kusaram99/book_show/master/sample.png",
+    title: "Book my Show",
+    seeProject: "https://book-my-show-frontend-seven.vercel.app/",
+    github: "https://github.com/Kusaram99/book_show"
+  },
+  {
+    id: 2,
     image: "https://shorturl.at/jyI89",
     title: "E-Commerce Web App",
     seeProject: "https://e-commerce-fnd.vercel.app/",
     github: "https://github.com/Kusaram99/E-Commerce-WebApp"
-  },
-  {
-    id: 2,
-    image: "https://shorturl.at/GXZ45",
-    title: "Book my Show",
-    seeProject: "https://bookmyshow-1acd3.web.app/",
-    github: "https://github.com/Kusaram99/bookMyShow"
   },
   {
     id: 3,
@@ -98,6 +99,9 @@ const Portfolio = () => {
           })
         }
 
+      </div>
+      <div className='seemore_btn'>
+        <a href='https://github.com/Kusaram99' target='_blanck'>See more</a>
       </div>
     </motion.section>
   )
