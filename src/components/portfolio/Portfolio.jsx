@@ -23,7 +23,7 @@ const data = [
     id: 3,
     image: "https://fileserver.teachstarter.com/thumbnails/34058-mab-flashcards-thumbnail-0-600x400.png",
     title: "Flash card Generator",
-    seeProject: "https://e-commerce-fnd.vercel.app/",
+    seeProject: "https://flashcard-six.vercel.app/",
     github: "https://github.com/Kusaram99/E-Commerce-WebApp"
   },
   {
