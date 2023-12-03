@@ -1,15 +1,17 @@
 import React from 'react';
 import './portfolio.css';
 import { motion } from 'framer-motion';
+import img1 from '../../assets/movie_book.png';
+console.log(img1)
+
 
 
 const data = [
   {
-    id: 1,
-    // image: "https://shorturl.at/GXZ45",
-    image: "https://raw.githubusercontent.com/Kusaram99/book_show/master/sample.png",
+    id: 1, 
+    image: img1,
     title: "Book my Show",
-    seeProject: "https://book-my-show-frontend-seven.vercel.app/",
+    seeProject: "https://book-my-show-frontend-shyl.vercel.app/",
     github: "https://github.com/Kusaram99/book_show"
   },
   {
