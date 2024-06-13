@@ -8,37 +8,37 @@ console.log(img1)
 
 const data = [
   {
-    id: 1, 
+    id: 1,
+    image: "https://shorturl.at/44Yl1",
+    title: "Routine Master",
+    seeProject: "https://todo-frontend-kappa-blond.vercel.app/",
+    github: "https://github.com/kusaram99"
+  },
+  {
+    id: 2, 
     image: img1,
     title: "Book my Show",
     seeProject: "https://book-my-show-frontend-shyl.vercel.app/",
     github: "https://github.com/Kusaram99/book_show"
   },
   {
-    id: 2,
-    image: "https://shorturl.at/jyI89",
+    id: 3,
+    image: "https://rb.gy/99ttog",
     title: "E-Commerce Web App",
     seeProject: "https://e-commerce-fnd.vercel.app/",
     github: "https://github.com/Kusaram99/E-Commerce-WebApp"
   },
   {
-    id: 3,
+    id: 4,
     image: "https://fileserver.teachstarter.com/thumbnails/34058-mab-flashcards-thumbnail-0-600x400.png",
     title: "Flash card Generator",
     seeProject: "https://flashcard-six.vercel.app/",
     github: "https://github.com/Kusaram99/E-Commerce-WebApp"
   },
   {
-    id: 4,
-    image: "https://www.animaker.com/static_2.0/img/text-to-speech/text_to_speech_ogimage.jpg",
-    title: "Text to speech converter",
-    seeProject: "https://text-speach.vercel.app/",
-    github: "https://github.com/Kusaram99/text-speach"
-  },
-  {
     id: 5,
-    image: "https://shorturl.at/qrT89",
-    title: "My Todo List",
+    image: "https://t3.ftcdn.net/jpg/01/00/65/64/360_F_100656447_xzaQm1D1p6oWUX4WCBX7LiDyD8Dw9sJw.jpg",
+    title: "Todo App",
     seeProject: "https://my-todo-app-pied-alpha.vercel.app/",
     github: "https://github.com/Kusaram99/myTodo_app"
   },
@@ -89,7 +89,7 @@ const Portfolio = () => {
             return (
               <article key={id} className='portfolio__items'>
                 <div className='portfolio__item-image'>
-                  <img src={image} alt="" />
+                  <img loading='lazy' src={image} alt="" />
                 </div>
                 <h3>{title}</h3>
                 <div className="portfolio-item-cta">

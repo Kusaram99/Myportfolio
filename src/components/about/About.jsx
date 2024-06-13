@@ -26,7 +26,7 @@ const About = () => {
 
   return (
     <motion.section
-      initial={{ opacity: 0, translateY:  250 }}
+      initial={{ opacity: 0, translateY: 250 }}
       animate={hasAnimated ? { opacity: 1, translateY: 0 } : {}}
       transition={{ duration: 0.6 }}
       id='about'
@@ -36,7 +36,11 @@ const About = () => {
       <div className='container about__container'>
         <div className='about__me'>
           <div className="about__me-image">
-            <img className='about-me-img' src={ME} alt="about-me-images" />
+            <img
+              loading='lazy'
+              className='about-me-img'
+              src={ME}
+              alt="about-me-images" />
           </div>
         </div>
 
@@ -68,4 +72,3 @@ const About = () => {
 
 export default About;
 
- 
