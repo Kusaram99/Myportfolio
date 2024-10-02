@@ -37,10 +37,10 @@ const data = [
   },
   {
     id: 5,
-    image: "https://shorturl.at/qrT89",
-    title: "My Todo List",
-    seeProject: "https://my-todo-app-pied-alpha.vercel.app/",
-    github: "https://github.com/Kusaram99/myTodo_app"
+    image: "https://www.digitalsilk.com/wp-content/uploads/2020/11/website-marketing-strategy-hero-image.png",
+    title: "Marketing Website",
+    seeProject: "https://figma-html-landing-page.vercel.app/",
+    github: "https://github.com/Kusaram99/oscare-internship/tree/frontend"
   },
   {
     id: 6,
