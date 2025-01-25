@@ -19,13 +19,13 @@ const Header = () => {
 
         <CTA />
         <HeaderSocials />
-        <div className='me'>
+        {/* <div className='me'>
           <img
             loading='lazy'
             src={Me}
             className="me-img"
             alt="me" />
-        </div>
+        </div> */}
 
         <a
           href="#contact"

@@ -39,7 +39,8 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/bg_texture.png);
+    /* background-image: url(../src/assets/bg_texture.png); */
+    background-color:  rgb(0, 0, 0);
     user-select: none;
 
 }
