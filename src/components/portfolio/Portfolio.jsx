@@ -2,6 +2,7 @@ import React from 'react';
 import './portfolio.css';
 import { motion } from 'framer-motion';
 import img1 from '../../assets/movie_book.png';
+import quizmaker_img from '../../assets/aiquizmaker.jpg'
 console.log(img1)
 
 
@@ -9,46 +10,45 @@ console.log(img1)
 const data = [
   {
     id: 1,
+    image: quizmaker_img,
+    title: "AI Quiz-Maker",
+    seeProject: "https://quizmaker-frontend.vercel.app/",
+    github: "https://github.com/Kusaram99/Quiz_Web_Application"
+  },
+  {
+    id: 2,
     image: "https://shorturl.at/44Yl1",
     title: "Routine Master",
     seeProject: "https://todo-frontend-kappa-blond.vercel.app/",
     github: "https://github.com/kusaram99"
   },
   {
-    id: 2, 
+    id: 3, 
     image: img1,
     title: "Book my Show",
     seeProject: "https://book-my-show-frontend-shyl.vercel.app/",
     github: "https://github.com/Kusaram99/book_show"
   },
   {
-    id: 3,
+    id: 4,
     image: "https://rb.gy/99ttog",
     title: "E-Commerce Web App",
     seeProject: "https://e-commerce-fnd.vercel.app/",
     github: "https://github.com/Kusaram99/E-Commerce-WebApp"
   },
   {
-    id: 4,
+    id: 5,
     image: "https://fileserver.teachstarter.com/thumbnails/34058-mab-flashcards-thumbnail-0-600x400.png",
     title: "Flash card Generator",
     seeProject: "https://flashcard-six.vercel.app/",
     github: "https://github.com/Kusaram99/E-Commerce-WebApp"
   },
   {
-    id: 5, 
+    id: 6, 
     image: "https://www.digitalsilk.com/wp-content/uploads/2020/11/website-marketing-strategy-hero-image.png",
     title: "Marketing Website",
     seeProject: "https://figma-html-landing-page.vercel.app/",
     github: "https://github.com/Kusaram99/oscare-internship/tree/frontend" 
-  },
-  {
-    id: 6,
-    image: "https://berkeyfilterwater.com/wp-content/uploads/2019/04/Berkey-USA-bundle-and-save.png",
-    title: "Bundle and save",
-    seeProject: "https://simple-html-task.vercel.app/",
-    github: "https://github.com/Kusaram99/Bundle-save"
-
   }
  
 ]
