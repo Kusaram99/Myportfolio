@@ -36,11 +36,11 @@ const data = [
     github: "https://github.com/Kusaram99/E-Commerce-WebApp"
   },
   {
-    id: 5,
-    image: "https://t3.ftcdn.net/jpg/01/00/65/64/360_F_100656447_xzaQm1D1p6oWUX4WCBX7LiDyD8Dw9sJw.jpg",
-    title: "Todo App",
-    seeProject: "https://my-todo-app-pied-alpha.vercel.app/",
-    github: "https://github.com/Kusaram99/myTodo_app"
+    id: 5, 
+    image: "https://www.digitalsilk.com/wp-content/uploads/2020/11/website-marketing-strategy-hero-image.png",
+    title: "Marketing Website",
+    seeProject: "https://figma-html-landing-page.vercel.app/",
+    github: "https://github.com/Kusaram99/oscare-internship/tree/frontend" 
   },
   {
     id: 6,
