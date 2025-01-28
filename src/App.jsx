@@ -1,26 +1,25 @@
-import React, { useEffect, useState } from 'react';
-import './index.css';
-import Header from './components/header/Header';
-import Nav from './components/nav/Nav';
-import About from './components/about/About';
-import Skills from './components/skills/Skills';
-// import Services from './components/services/Services';
-import Portfolio from './components/portfolio/Portfolio';
-import Contact from './components/contact/Contact';
-// import Footer from './components/footer/Footer';
-
+import React from "react";
+import "./index.css";
+import Header from "./components/header/Header";
+import Nav from "./components/nav/Nav";
+import About from "./components/about/About";
+import Skills from "./components/skills/Skills";
+import Portfolio from "./components/portfolio/Portfolio";
+import Contact from "./components/contact/Contact";
+import MouseGlow from "./components/mouse_glow/MouseGlow";
 
 const App = () => {
   return (
-    <div>
-      <Header /> 
+    <>
+      <MouseGlow /> {/* Ensure this is present at the highest level */}
+      <Header />
       <Nav />
-        <About />
-        <Skills /> 
-        <Portfolio />
-        <Contact /> 
-    </div>
-  )
-}
+      <About />
+      <Skills />
+      <Portfolio />
+      <Contact />
+    </>
+  );
+};
 
-export default App
+export default App;

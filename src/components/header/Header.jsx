@@ -1,11 +1,12 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import "./header.css";
 import CTA from "./CTA";
 // import Me from "../../assets/welcome.png";
 import HeaderSocials from "./HeaderSocials";
 
-const Header = () => {
+const Header = () => { 
+
   return (
     <motion.header
       initial={{ opacity: 0, translateY: 200 }}
