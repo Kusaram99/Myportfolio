@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import ME from '../../assets/profile.png';
+import ME from '../../assets/profile2.png';
 import { FaUsers } from 'react-icons/fa';
 import { VscFolderLibrary } from 'react-icons/vsc';
 import { motion } from 'framer-motion';
