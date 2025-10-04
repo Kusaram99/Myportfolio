@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from '../../assets/CV.docx';
+import CV from '../../assets/Kusaram_Pawara_CV.pdf';
 
 
 

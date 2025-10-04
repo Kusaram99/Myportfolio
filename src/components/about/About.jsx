@@ -26,7 +26,7 @@ const About = () => {
 
   return (
     <motion.section
-      initial={{ opacity: 0, translateY:  250 }}
+      initial={{ opacity: 0, translateY: 250 }}
       animate={hasAnimated ? { opacity: 1, translateY: 0 } : {}}
       transition={{ duration: 0.6 }}
       id='about'
@@ -36,7 +36,11 @@ const About = () => {
       <div className='container about__container'>
         <div className='about__me'>
           <div className="about__me-image">
-            <img className='about-me-img' src={ME} alt="about-me-images" />
+            <img
+              loading='lazy'
+              className='about-me-img'
+              src={ME}
+              alt="about-me-images" />
           </div>
         </div>
 
@@ -54,10 +58,10 @@ const About = () => {
             </article>
           </div>
 
-          <p>Hi, I'm Kusaram, a web developer with a passion for building user-friendly and
-            visually stunning websites. I have strong skills in HTML, CSS, JavaScript, React, and
-            other popular technologies. I'm also a team player and always eager to learn new things.
-            I'm excited to kickstart my web development career and contribute to the success of your company.</p>
+          <p>
+            Seeking innovative and challenging career in a growing organization which gives me an opportunity to utilize my
+            skills and knowledge and provides me an opportunity for career growth.
+          </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
         </div>
@@ -68,4 +72,3 @@ const About = () => {
 
 export default About;
 
- 

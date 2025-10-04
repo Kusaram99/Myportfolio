@@ -12,6 +12,10 @@ import { DiMongodb } from 'react-icons/di';
 import { GrMysql } from 'react-icons/gr';
 import { SiExpress } from 'react-icons/si';
 import { FaNodeJs } from 'react-icons/fa';
+import { VscJson } from "react-icons/vsc";
+import { TbSql } from "react-icons/tb";
+import { FaPython } from "react-icons/fa";
+
 
 // import {jslogo} from '../../assets/js-logo.png';
 
@@ -102,6 +106,21 @@ const Skills = () => {
                         <article className="skill__detail">
                             <GrMysql className='skill__detail-icon' />
                             <div><h4>MySQL</h4></div>
+
+                        </article>
+                        <article className="skill__detail">
+                            <VscJson className='skill__detail-icon' />
+                            <div><h4>Jwt</h4></div>
+
+                        </article>
+                        <article className="skill__detail">
+                            <TbSql className='skill__detail-icon' />
+                            <div><h4>SQL</h4></div>
+
+                        </article>
+                        <article className="skill__detail">
+                            <FaPython className='skill__detail-icon' />
+                            <div><h4>Python</h4></div>
 
                         </article>
                     </div>
